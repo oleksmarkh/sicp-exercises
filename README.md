@@ -8,4 +8,4 @@ exloring the great [sicp book](http://mitpress.mit.edu/sicp/full-text/book/book.
 
 ## run
 
-`csi -s hello.scm` (see [chicken wiki](http://wiki.call-cc.org/man/4/Using%20the%20interpreter))
+`csi -s [filename]` (see [chicken wiki](http://wiki.call-cc.org/man/4/Using%20the%20interpreter))
