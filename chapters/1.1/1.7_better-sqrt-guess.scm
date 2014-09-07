@@ -1,20 +1,21 @@
 ; http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_thm_1.7
 
-(define (average x y)
-  (/ (+ x y) 2))
+(define (average a b)
+  (/ (+ a b) 2))
 
 (define (improve guess x)
   (average guess (/ x guess)))
 
-(define (good-enough? guess prev-quess)
+; checks if "guess" doesn't change much from last iteration
+(define (good-enough? guess prev-guess)
   (<
     (/
-      (abs (- guess prev-quess))
+      (abs (- guess prev-guess))
       guess)
     0.001))
 
-(define (sqrt-iter guess prev-quess x)
-  (if (good-enough? guess prev-quess)
+(define (sqrt-iter guess prev-guess x)
+  (if (good-enough? guess prev-guess)
       guess
       (sqrt-iter (improve guess x) guess x)))
 
