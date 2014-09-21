@@ -1,6 +1,6 @@
 # sicp-excersices
 
-exloring the great [sicp book](http://mitpress.mit.edu/sicp/full-text/book/book.html)
+exploring the great [sicp book](http://mitpress.mit.edu/sicp/full-text/book/book.html)
 
 ## setup (Fedora)
 
