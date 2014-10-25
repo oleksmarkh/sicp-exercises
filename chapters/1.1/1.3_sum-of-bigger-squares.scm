@@ -8,11 +8,11 @@
 
 (define (sum-of-bigger-squares a b c)
   (if (> a b)
-    (if (> b c)
-      (sum-of-squares a b)
-      (sum-of-squares a c))
-    (if (> a c)
-      (sum-of-squares b a)
-      (sum-of-squares b c))))
+      (if (> b c)
+          (sum-of-squares a b)
+          (sum-of-squares a c))
+      (if (> a c)
+          (sum-of-squares b a)
+          (sum-of-squares b c))))
 
 (print (sum-of-bigger-squares 2 1 3))

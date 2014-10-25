@@ -17,4 +17,4 @@
 (print "   " (el 2 1) " " (el 2 2))
 (print "  " (el 3 1) " " (el 3 2) " " (el 3 3))
 (print " " (el 4 1) " " (el 4 2) " " (el 4 3) " " (el 4 4))
-(print (el 5 1) " " (el 5 2) " " (el 5 3) " " (el 5 4) " " (el 5 5))
+(print "" (el 5 1) " " (el 5 2) " " (el 5 3) " " (el 5 4) " " (el 5 5))
