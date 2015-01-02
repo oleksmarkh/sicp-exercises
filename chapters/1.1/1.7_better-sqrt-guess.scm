@@ -8,11 +8,9 @@
 
 ; checks if "guess" doesn't change much from last iteration
 (define (good-enough? guess prev-guess)
-  (<
-    (/
-      (abs (- guess prev-guess))
-      guess)
-    0.001))
+  (< (/ (abs (- guess prev-guess))
+        guess)
+     0.001))
 
 (define (sqrt-iter guess prev-guess x)
   (if (good-enough? guess prev-guess)

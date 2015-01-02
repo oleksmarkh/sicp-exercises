@@ -9,9 +9,8 @@
 (define (el row pos)
   (cond ((= pos 1) 1)
         ((= pos row) 1)
-        (else (+
-                (el (- row 1) (- pos 1))
-                (el (- row 1) pos)))))
+        (else (+ (el (- row 1) (- pos 1))
+                 (el (- row 1) pos)))))
 
 (print "    " (el 1 1))
 (print "   " (el 2 1) " " (el 2 2))
