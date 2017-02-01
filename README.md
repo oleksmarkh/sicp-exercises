@@ -1,6 +1,6 @@
 # sicp-excersices
 
-exploring the great [sicp book](http://mitpress.mit.edu/sicp/full-text/book/book.html)
+exploring the great [sicp book](http://mitpress.mit.edu/sicp/full-text/book/book.html) ([Sara Bander’s html5](http://sarabander.github.io/sicp/html/index.xhtml#SEC_Contents), [video lectures](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/))
 
 
 ## setup (Fedora)
@@ -19,3 +19,4 @@ exploring the great [sicp book](http://mitpress.mit.edu/sicp/full-text/book/book
 * http://wqzhang.wordpress.com/sicp-solutions
 * http://wiki.drewhess.com/wiki/Category:SICP_solutions
 * http://community.schemewiki.org/?sicp-solutions
+* https://github.com/zv/SICP-guile
