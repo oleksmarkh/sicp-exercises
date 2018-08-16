@@ -1,4 +1,4 @@
-# sicp-excersices
+# sicp-exercises
 
   [![license][license-image]][license-url]
 
