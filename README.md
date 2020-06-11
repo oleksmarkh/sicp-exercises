@@ -3,11 +3,7 @@
   [![license][license-image]][license-url]
   ![code size][code-size-image]
 
-Exploring the great SICP book.
-
-## Motivation/goals
-
-Refreshing CS basics and exploring FP.
+Exploring the great SICP book, refreshing CS basics.
 
 ## Status
 
